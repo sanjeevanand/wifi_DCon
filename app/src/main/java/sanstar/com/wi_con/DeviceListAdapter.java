@@ -70,7 +70,7 @@ public class DeviceListAdapter extends RecyclerView.Adapter<DeviceListAdapter.De
         timervalues = deviceListModles.get(position).getTime();
         str1 = timervalues.split(":");//str1[0]="01" str1[1]="30"
         holder.deviceTimeHar.setText(str1[0]);
-        holder.deviceTimerMin.setText(str1[1]); 
+        holder.deviceTimerMin.setText(str1[1]);
         holder.imTimer.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
